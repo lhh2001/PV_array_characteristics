@@ -1,4 +1,4 @@
-load result.mat
+load ../results/result.mat
 k = 0;
 for i = 1:1:17000
     if data(i).T == 25 && data(i).Ir == 1000 && data(i).diffIr1 == data(i).diffIr2

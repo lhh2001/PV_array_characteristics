@@ -1,4 +1,4 @@
-load result.mat
+load ../results/result.mat
 k = 0;
 for i = 1:1:17000
     Ir1 = data(i).Ir;
