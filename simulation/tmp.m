@@ -64,8 +64,8 @@ for i = 1:101
     end
 end
 
-% plot(peak(1:101,3))
-% hold on
-% plot([data.mpp])
-% plot(predict_p)
-% legend({'电导增量','理论最大值','神经网络预测'});
+plot(peak(1:101,3))
+hold on
+plot([data.mpp])
+plot(predict_p)
+legend({'电导增量','理论最大值','神经网络预测'});
